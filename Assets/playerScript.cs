@@ -13,7 +13,7 @@ public class playerScript : MonoBehaviour
     private Animator anim;
     private SpriteRenderer spr;
     private InputManager inputMan;
-    [SerializeField] onGround grounded;
+    
 
     private Vector2 spdVector;
     private Vector2 prevSpd;
@@ -58,8 +58,10 @@ public class playerScript : MonoBehaviour
         falling = false;
 
         moveDir = Direction.NONE;
-        inputMan = InputManager.Instance; 
-    }
+        inputMan = InputManager.Instance;
+        
+            
+       }
 
     // Update is called once per frame
     void Update()
@@ -82,16 +84,17 @@ public class playerScript : MonoBehaviour
             spr.flipX = true;
         }
 
+   
         if (!isJumping )
         {
             if (inputMan.ButtonDown[(int)GameInputs.JUMP])
             {
-                jumpPerformed = false;
+                jumpPerformed = true;
                 isJumping = true;
             }
         }
         
-        anim.SetBool(RunningID, isRunning);
+        //anim.SetBool(RunningID, isRunning);
 
         if (wasJumping != isJumping)
         {
@@ -136,7 +139,7 @@ public class playerScript : MonoBehaviour
                 jumpSpdX = jumpSpeed * delta;
                 spr.flipX = false;
             }
-            rigidbody.AddForce(new Vector2(jumpSpdX, (jumpSpeed*30) * delta));
+            rigidbody.AddForce(new Vector2(jumpSpdX, (jumpSpeed*100) * delta));
             
         }
     }

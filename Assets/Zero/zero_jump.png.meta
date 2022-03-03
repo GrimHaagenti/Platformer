@@ -168,8 +168,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: zero_jump_1
       rect:
         serializedVersion: 2
-        x: 40
+        x: 80
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: zero_jump_2
       rect:
         serializedVersion: 2
-        x: 80
+        x: 160
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: zero_jump_3
       rect:
         serializedVersion: 2
-        x: 120
+        x: 240
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: zero_jump_4
       rect:
         serializedVersion: 2
-        x: 160
+        x: 320
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: zero_jump_5
       rect:
         serializedVersion: 2
-        x: 200
+        x: 400
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: zero_jump_6
       rect:
         serializedVersion: 2
-        x: 240
+        x: 480
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: zero_jump_7
       rect:
         serializedVersion: 2
-        x: 280
+        x: 560
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: zero_jump_8
       rect:
         serializedVersion: 2
-        x: 320
+        x: 640
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +355,10 @@ TextureImporter:
       name: zero_jump_9
       rect:
         serializedVersion: 2
-        x: 360
+        x: 720
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +376,10 @@ TextureImporter:
       name: zero_jump_10
       rect:
         serializedVersion: 2
-        x: 400
+        x: 800
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +397,10 @@ TextureImporter:
       name: zero_jump_11
       rect:
         serializedVersion: 2
-        x: 440
+        x: 880
         y: 0
-        width: 40
-        height: 50
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

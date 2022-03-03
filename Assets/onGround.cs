@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class onGround : MonoBehaviour
 {
-    private bool isGrounded;
-    private bool justLand;
-    private bool jumped;
+    public bool isGrounded;
+    public bool justLand;
+    public  bool jumped;
+    private playerScript asas;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class onGround : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         justLand = true;
+        Debug.Log("WWWWWWWWWWWWWWWWW");
     }
     public void OnCollisionStay2D(Collision2D collision)
     {

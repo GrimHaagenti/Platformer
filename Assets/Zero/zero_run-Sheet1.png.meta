@@ -165,8 +165,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: zero_run-Sheet1_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 80
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: zero_run-Sheet1_2
       rect:
         serializedVersion: 2
-        x: 78
+        x: 160
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: zero_run-Sheet1_3
       rect:
         serializedVersion: 2
-        x: 117
+        x: 240
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: zero_run-Sheet1_4
       rect:
         serializedVersion: 2
-        x: 156
+        x: 320
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: zero_run-Sheet1_5
       rect:
         serializedVersion: 2
-        x: 195
+        x: 400
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: zero_run-Sheet1_6
       rect:
         serializedVersion: 2
-        x: 234
+        x: 480
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: zero_run-Sheet1_7
       rect:
         serializedVersion: 2
-        x: 273
+        x: 560
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: zero_run-Sheet1_8
       rect:
         serializedVersion: 2
-        x: 312
+        x: 640
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: zero_run-Sheet1_9
       rect:
         serializedVersion: 2
-        x: 351
+        x: 720
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: zero_run-Sheet1_10
       rect:
         serializedVersion: 2
-        x: 390
+        x: 800
         y: 0
-        width: 39
-        height: 39
+        width: 80
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
