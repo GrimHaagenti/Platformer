@@ -314,7 +314,7 @@ PlatformEffector2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202961561}
-  m_Enabled: 1
+  m_Enabled: 0
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
@@ -337,7 +337,7 @@ CompositeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_GeometryType: 0
@@ -9514,6 +9514,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5015351870388728120, guid: f90b19cadb6f7ac4d8b81386960cc197, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5123517373572425732, guid: f90b19cadb6f7ac4d8b81386960cc197, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9570,9 +9574,18 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7976029654534662529, guid: f90b19cadb6f7ac4d8b81386960cc197, type: 3}
+      propertyPath: jumpSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8721954238280795296, guid: f90b19cadb6f7ac4d8b81386960cc197, type: 3}
+      propertyPath: m_GravityScale
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8906955616909575326, guid: f90b19cadb6f7ac4d8b81386960cc197, type: 3}
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6401139668443233318, guid: f90b19cadb6f7ac4d8b81386960cc197, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f90b19cadb6f7ac4d8b81386960cc197, type: 3}

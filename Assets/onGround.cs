@@ -7,7 +7,7 @@ public class onGround : MonoBehaviour
     public bool isGrounded;
     public bool justLand;
     public  bool jumped;
-    private playerScript asas;
+    private playerScript player;
 
     // Start is called before the first frame update
     void Start()
@@ -15,28 +15,30 @@ public class onGround : MonoBehaviour
         isGrounded = false;
         justLand = false;
         jumped = false;
+        player = GetComponentInParent<playerScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+        
+    }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        player.isJumping = false;
+        
+    }
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+
+        player.grounded = true;
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerExit2D(Collider2D collision)
     {
-        justLand = true;
-        Debug.Log("WWWWWWWWWWWWWWWWW");
-    }
-    public void OnCollisionStay2D(Collision2D collision)
-    {
-        isGrounded = true;
-        jumped = false;
+        player.grounded = false;
 
-    }
-    public void OnCollisionExit2D(Collision2D collision)
-    {
-        jumped = true;
-        isGrounded = false;
 
     }
 }

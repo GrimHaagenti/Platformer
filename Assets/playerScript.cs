@@ -28,6 +28,7 @@ public class playerScript : MonoBehaviour
     public bool isRunning;
     public bool isJumping;
     public bool wasJumping;
+    public bool grounded;
 
     public bool falling;
 
@@ -56,6 +57,7 @@ public class playerScript : MonoBehaviour
         jumpPerformed = false;
         canWallJump = false;
         falling = false;
+        grounded = false;
 
         moveDir = Direction.NONE;
         inputMan = InputManager.Instance;
@@ -68,9 +70,10 @@ public class playerScript : MonoBehaviour
     {
         moveDir = Direction.NONE;
         isRunning = false;
+        isJumping = false;
 
 
-        
+
         if (inputMan.ButtonDown[(int)GameInputs.RIGHT])
         {
             isRunning = true;
@@ -85,24 +88,20 @@ public class playerScript : MonoBehaviour
         }
 
    
-        if (!isJumping )
-        {
+       
             if (inputMan.ButtonDown[(int)GameInputs.JUMP])
             {
                 jumpPerformed = true;
                 isJumping = true;
             }
-        }
+           
+        
         
         //anim.SetBool(RunningID, isRunning);
 
-        if (wasJumping != isJumping)
-        {
-            if (isJumping == jumpPerformed) { anim.SetBool(JumpingID, isJumping); }
-            else { anim.SetBool(FallID, falling); }
-        }
         
-        wasJumping = isJumping;
+        
+      
     }
     private void FixedUpdate()
     {
@@ -125,7 +124,7 @@ public class playerScript : MonoBehaviour
         {
             falling = true;
         }
-        if (isJumping && !jumpPerformed)
+        if (isJumping )
         {
             jumpPerformed = true;
             float jumpSpdX = 0;
