@@ -165,7 +165,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,9 +184,9 @@ TextureImporter:
       name: ATK3_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 112
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -205,9 +205,9 @@ TextureImporter:
       name: ATK3_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 224
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -226,9 +226,9 @@ TextureImporter:
       name: ATK3_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 336
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -247,9 +247,9 @@ TextureImporter:
       name: ATK3_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 448
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -268,9 +268,9 @@ TextureImporter:
       name: ATK3_5
       rect:
         serializedVersion: 2
-        x: 400
+        x: 560
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -289,9 +289,9 @@ TextureImporter:
       name: ATK3_6
       rect:
         serializedVersion: 2
-        x: 480
+        x: 672
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -310,9 +310,9 @@ TextureImporter:
       name: ATK3_7
       rect:
         serializedVersion: 2
-        x: 560
+        x: 784
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -331,9 +331,9 @@ TextureImporter:
       name: ATK3_8
       rect:
         serializedVersion: 2
-        x: 640
+        x: 896
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -352,9 +352,9 @@ TextureImporter:
       name: ATK3_9
       rect:
         serializedVersion: 2
-        x: 720
+        x: 1008
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -373,9 +373,9 @@ TextureImporter:
       name: ATK3_10
       rect:
         serializedVersion: 2
-        x: 800
+        x: 1120
         y: 0
-        width: 80
+        width: 112
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
