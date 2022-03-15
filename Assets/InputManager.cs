@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-enum GameInputs { UP, DOWN, LEFT, RIGHT, JUMP, RUN, SHOOT, ACCEPT, CANCEL };
+enum GameInputs { UP, DOWN, LEFT, RIGHT, JUMP, RUN, SHOOT, ACCEPT, CANCEL, SLASH, LAST_ACTION };
 
 public class InputManager : MonoBehaviour
 { 
     
     public static  InputManager Instance { get; private set; }
 
-    public bool[] ButtonPressed = new bool[9];
-    public bool[] ButtonDown = new bool[9];
-    public bool[] ButtonReleased = new bool[9];
+    public bool[] ButtonPressed = new bool[(int)GameInputs.LAST_ACTION];
+    public bool[] ButtonDown = new bool[(int)GameInputs.LAST_ACTION];
+    public bool[] ButtonReleased = new bool[(int)GameInputs.LAST_ACTION];
 
     KeyCode jumpButton = KeyCode.Z;
-    KeyCode runButton = KeyCode.X;
+    KeyCode runButton = KeyCode.A;
+    KeyCode slashButton = KeyCode.X;
+
     KeyCode shootButton = KeyCode.C;
     KeyCode acceptButton = KeyCode.Z;
     KeyCode cancelButton = KeyCode.X;
@@ -41,7 +43,7 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < (int)GameInputs.LAST_ACTION; i++)
         {
             ButtonDown[i] = false;
             ButtonPressed[i] = false;
@@ -51,6 +53,10 @@ public class InputManager : MonoBehaviour
         if (Input.GetKey(jumpButton)){ButtonDown[(int)GameInputs.JUMP] = true;}
         if (Input.GetKeyDown(jumpButton)){ButtonPressed[(int)GameInputs.JUMP] = true;}
         if (Input.GetKeyUp(jumpButton)){ButtonReleased[(int)GameInputs.JUMP] = true;}
+        
+        if (Input.GetKey(slashButton)){ButtonDown[(int)GameInputs.SLASH] = true;}
+        if (Input.GetKeyDown(slashButton)){ButtonPressed[(int)GameInputs.SLASH] = true;}
+        if (Input.GetKeyUp(slashButton)){ButtonReleased[(int)GameInputs.SLASH] = true;}
 
          if (Input.GetKey(runButton)){ButtonDown[(int)GameInputs.RUN] = true;}
         if (Input.GetKeyDown(runButton)){ButtonPressed[(int)GameInputs.RUN] = true;}
